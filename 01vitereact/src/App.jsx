@@ -1,9 +1,10 @@
 import Chai from "./Chai"
 
 function App() {
+  const username = 'lemon tea'
   return (
     <>
-      <h1>chai aur react | Harsh</h1>
+      <h1>chai aur react | {username}</h1>
       <Chai />
     </>
 
