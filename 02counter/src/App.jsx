@@ -13,7 +13,7 @@ function App() {
     }
     else {
       counter = counter + 1;
-      setCounter(counter);
+      setCounter(counter)
     }
     console.log('clicked', counter);
   }
